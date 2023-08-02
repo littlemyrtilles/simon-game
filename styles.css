@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  overflow: hidden;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  3%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-image: url("images/heart.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: red;
+}
+
+.green {
+  background-image: url("images/carrot.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: green;
+}
+
+.blue {
+  background-image: url("images/bunny.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: blue;
+}
+
+.yellow {
+  background-image: url("images/flower.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 0%;
+  border: 1px solid #FEF2BF;
+  background-color: transparent;
+  margin-bottom:  2%;
+}
+
+.intro-title-btn {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.6rem;
+  color: #FEF2BF;
+}
+
+.intro-title, p {
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  text-align: center;
+  margin: auto;
+}
+
+ol {
+  background-color: #011F3F;
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  margin: 30px;
+  text-align: left;
+}
+
